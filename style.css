@@ -719,3 +719,119 @@ line-height: 1.9;
 .multiple-text{
     color: var(--main-color);
 }
+
+@media(max-width: 768px){
+
+    .header{
+        padding: 2rem 5%;
+    }
+
+    .navbar{
+        display: none !important;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 70%;
+        padding: 1rem 3rem;
+        background: rgba(0, 0, 0, 0.95);
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        border-bottom-left-radius: 2rem;
+    }
+
+    .navbar.active{
+        display: block !important;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        gap: 4rem;
+        text-align: center;
+        padding-top: 14rem;
+    }
+
+    .home-content{
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-content h1{
+        font-size: 4.5rem;
+    }
+
+    .home-content h3{
+        font-size: 2.7rem;
+        min-height: 4rem;
+    }
+
+    .multiple-text{
+        color: var(--main-color) !important;
+    }
+
+    .home-content p{
+        font-size: 1.5rem;
+    }
+
+    .home-img img{
+        width: 55vw;
+        height: 55vw;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .facts-container{
+        position: static !important;
+        height: auto !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .fact-box{
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 220px;
+        background: var(--bg-color);
+        border: 1px solid var(--main-color);
+        border-radius: 2rem;
+        padding: 3rem 2rem;
+        text-align: center;
+        box-shadow: 0 0 15px rgba(205, 80, 230, 0.35);
+        transform: none !important;
+    }
+
+    .fact-box:hover{
+        transform: none !important;
+        box-shadow: 0 0 20px var(--main-color);
+    }
+
+    .fact-box i{
+        font-size: 4rem;
+        color: var(--main-color);
+        margin-bottom: 1rem;
+    }
+
+    .fact-box h3{
+        font-size: 2.6rem;
+        color: var(--main-color);
+        margin-bottom: 1rem;
+    }
+
+    .fact-box p{
+        font-size: 1.7rem;
+        line-height: 1.7;
+    }
+
+    .fact-number{
+        font-size: 4rem !important;
+        color: white;
+    }
+
+    .fact-label{
+        display: block;
+        font-size: 1.5rem;
+        color: #cfcfcf;
+    }
+}
