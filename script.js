@@ -47,3 +47,16 @@ modal.addEventListener("click", (e) => {
         modal.classList.remove("active");
     }
 });
+
+const typed = new Typed(".multiple-text", {
+    strings: [
+        "Software Developer",
+        "Data Analyst",
+        
+        "Full-Stack Developer"
+    ],
+    typeSpeed: 80,
+    backSpeed: 60,
+    backDelay: 1200,
+    loop: true
+});
