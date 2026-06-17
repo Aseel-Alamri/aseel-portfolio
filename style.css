@@ -789,18 +789,40 @@ line-height: 1.9;
     }
 
     .fact-box{
-        position: static !important;
-        width: 100% !important;
-        height: auto !important;
-        min-height: 220px;
-        background: var(--bg-color);
-        border: 1px solid var(--main-color);
-        border-radius: 2rem;
-        padding: 3rem 2rem;
-        text-align: center;
-        box-shadow: 0 0 15px rgba(205, 80, 230, 0.35);
-        transform: none !important;
+        .fact-box,
+.fact-box:nth-child(1),
+.fact-box:nth-child(2),
+.fact-box:nth-child(3),
+.fact-box:nth-child(4),
+.fact-box:nth-child(5),
+.fact-box:nth-child(6){
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 220px;
+    transform: none !important;
+    z-index: auto !important;
+}
     }
+
+    .fact-box i,
+.fact-box p,
+.fact-box h3,
+.fact-number,
+.fact-label{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.navbar{
+    display: none !important;
+}
+
+.navbar.active{
+    display: block !important;
+}
 
     .fact-box:hover{
         transform: none !important;
