@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;  
+        }
+    </style>
+
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">
+      <span>Aseel</span> AlAmri
+    </a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   
+    <a href="#contact" class="gradient-btn">Contact Me</a>
+</header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi,it's <span>Aseel</span>ALAmri</h1>
+        <h3>
+            i'm a <span>Software Developer</span>
+        </h3>
+        <p>
+            Passionate about building software solutions that combine technology, data, and user experience.
+
+I have experience developing full-stack web applications,
+AI-powered dashboards, and data-driven systems through academic 
+and professional projects. I enjoy transforming complex problems 
+into practical solutions and continuously expanding my skills in software development, 
+data analytics, and emerging technologies.
+
+            
+            </p>
+         
+
+            <div class="social-icons">
+                <a href="https://github.com/Aseel-Alamri" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+            
+                <a href="https://www.linkedin.com/in/aseel-alamri-829096326/" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            </div>
+            
+            <div class="btn-group">
+                <!-- <a href="#hire" class="btn">Hire</a> -->
+
+                <a href="#contact" class="btn">Contact</a>
+                <a href="Aseel_SE_resumes.pdf" download class="btn">Download CV</a>
+
+            </div>
+    </div>
+    <div class="home-img">
+        <img src="MyPhoto.jpg">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="second.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p> 
+           I am a Software Developer with a strong interest in data analytics,
+            artificial intelligence, and building impactful digital solutions.
+
+Through academic, internship, and personal projects,
+ I have developed experience in full-stack web development, data analysis, 
+ and AI-powered applications. My work includes building a solar
+  energy digital twin platform, developing business intelligence dashboards, 
+  and creating database-driven web applications.
+I enjoy learning new technologies, solving complex problems, 
+and turning ideas into practical solutions that create real value.
+</p>
+               <!-- <a href="#" class="btn">Read More</a> -->
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h2 class="heading">Skills & Tools</h2>
+
+    <div class="skills-wrapper">
+
+        <div class="skill-category">
+            <h3><i class="bx bx-code-alt"></i> Software Development</h3>
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>REST APIs</span>
+                <span>GitHub</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="bx bx-bar-chart-alt-2"></i> Data Analytics</h3>
+            <div class="skills-list">
+                <span>Python</span>
+                <span>Data Analysis</span>
+                <span>Dashboards</span>
+                <span>Power BI</span>
+                <span>Streamlit</span>
+                <span>Reporting</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="bx bx-brain"></i> AI & Emerging Technologies</h3>
+            <div class="skills-list">
+                <span>Generative AI</span>
+                <span>Machine Learning</span>
+                <span>PVLib</span>
+                <span>NASA Power API</span>
+                <span>AI Insights</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+    <div class="projects-box">
+
+        <!-- 6 -->
+<div class="project-card">
+    <img src="siraj.jpg" alt="Siraj Project">
+
+    <h3>Siraj - Solar Digital Twin</h3>
+    <p>Siraj is a digital twin platform for solar energy systems. It simulates solar panel performance using historical weather data, analyzes energy production trends, and provides reports to support better decision-making.</p>
+    <button class="btn details-btn" data-project="siraj">View Details</button>
+</div>
+
+<!-- 7 -->
+<div class="project-card">
+    <img src="skillhub.png" alt="SkillHub Project">
+
+    <h3>SkillHub</h3>
+    <p>SkillHub is a full-stack web application for student workshops. It allows users to explore, search, filter, and book workshops, while admins can manage workshop content through a dynamic database-driven system.</p>
+    <a href="https://github.com/ririAdwani/SkillHub-403" target="_blank" class="btn">
+    View on GitHub
+</a>
+</div>
+
+<!-- 8 -->
+<div class="project-card">
+    <img src="petrolube.png" alt="PetroLube Sales Dashboard">
+
+    <h3>AI-Powered Sales Dashboard - PetroLube</h3>
+    <p>An AI-powered sales dashboard developed during my internship at PetroLube. It analyzes revenue trends, margins, and business performance, with AI-generated insights to support management decisions.</p>
+    <button class="btn details-btn" data-project="petrolube">View Details</button>
+</div>
+
+<!-- 1 -->
+        <div class="project-card">
+        <img src="World-Cup-Interface.png" alt="">
+
+        <h3>World Cup </h3>
+        <p>World Cup  is a responsive and interactive 
+            UI project that provides information about World Cup teams,
+             match schedules, stadium names, transportation options, and nearby hotels. 
+            It ensures a smooth user experience with an intuitive design and dynamic data display.</p>
+            
+            <a href="https://aseel-alamri.github.io/Saudi-Cup/" target="_blank" class="btn">Review Project</a>
+
+    </div>
+    <!-- 2 -->
+    <div class="project-card">
+        <img src="Hotel-Card-Interface.png" alt="">
+
+        <h3>Hotel Card</h3>
+        <p>**Hotel Card Interface** is a stylish and responsive hotel card 
+            design inspired by booking websites.
+             It displays essential hotel details such as name, price,
+             rating, and an image, providing a clean and user-friendly layout for a seamless browsing experience.</p>
+             <a href=" https://aseel-alamri.github.io/Hotel-Card/" target="_blank" class="btn">Review Project</a>
+    </div>
+<!-- 3 -->
+    <div class="project-card">
+        <img src="Bean.png" alt="">
+
+        <h3>Soul Caffee</h3>
+        <p>This is a simple front-end website for Soul Coffee, showcasing the café’s menu, contact info, 
+and location.The site has a clean,
+ responsive design that adapts to different devices, 
+built using HTML and CSS without back-end functionality.</p>
+             <a href=" https://aseel-alamri.github.io/Bean/" target="_blank" class="btn">Review Project</a>
+    </div>
+
+    <!-- 4 -->
+    <div class="project-card">
+        <img src="univirsty .png" alt="">
+
+        <h3>University Simulator</h3>
+        <p>A simple website simulating a university interface, showcasing sections like courses, registration, 
+            and contact information.
+             The design is clean and responsive, ensuring a smooth user experience across all devices,
+             built using HTML and CSS with no back-end functionality.</p>
+             <a href="https://aseel-alamri.github.io/SimuUnivirsty/" target="_blank" class="btn">Review Project</a>
+    </div>
+  
+      <!-- 5 -->
+      <div class="project-card">
+        <img src="iban.png" alt="">
+
+        <h3>IBAN Checker</h3>
+        <p>IBAN Checker: This project is a simple tool designed to validate the format of Saudi Arabian International Bank Account Numbers
+             (IBANs) using HTML and JavaScript. The tool checks the validity of the IBAN format and ensures it adheres to the correct structure. 
+            It provides users with real-time feedback on the validity of the entered IBAN.</p>
+             <a href="https://aseel-alamri.github.io/IbanCheck/" target="_blank" class="btn">Review Project</a>
+    </div>
+  
+   
+</div>
+</section>
+
+<!-- <section class="contact" id="contact">
+    <h2 class="heading">contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                
+            </div>
+        </div>
+        <div class="input-group-2">
+            <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+</section> -->
+
+<!-- <div class="btn-group">
+    <a href="#projects" class="btn">View My Work</a>
+    <a href="Aseel_SE_resumes.pdf" download class="btn">Download CV</a>
+</div> -->
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <p class="contact-text">
+    Feel free to reach out for opportunities, collaborations, or project discussions.
+</p>
+
+    <form action="https://formspree.io/f/xvgzrryq" method="POST">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Phone Number">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+        </div>
+        <div class="input-group-2">
+            <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+</section>
+
+
+<!-- <section class="hire" id="hire">
+    <h2 class="heading">Hire <span>Me</span></h2>
+
+    <form action="https://formspree.io/f/xvgzrryq" method="POST">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Phone Number">
+                <input type="text" name="position" placeholder="Position You're Hiring For" required>
+            </div>
+        </div>
+        <div class="input-group-2">
+            <textarea name="message" placeholder="Message (Project Details, Budget, etc.)" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send Request" class="btn">
+        </div>
+    </form>
+</section> -->
+
+
+
+
+
+
+ <footer class="footer">
+    <div class="social-icons">
+        <a href="https://github.com/Aseel-Alamri" target="_blank">
+            <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/aseel-alamri-829096326/" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+        </a>
+    </div>
+
+    <ul class="list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <p class="copyright">
+        &copy; Aseel AlAmri | All Rights Reserved
+    </p>
+</footer>
+
+<div class="project-modal" id="projectModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <h3>My Role</h3>
+        <p id="modalRole"></p>
+        <h3>Technologies</h3>
+        <p id="modalTech"></p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
