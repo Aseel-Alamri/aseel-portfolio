@@ -857,3 +857,9 @@ line-height: 1.9;
         color: #cfcfcf;
     }
 }
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
